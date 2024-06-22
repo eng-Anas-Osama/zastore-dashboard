@@ -11,9 +11,9 @@
           <StatCard title="Performance" value="49,65%" change="12%" changeType="up" />
         </div>
         <!-- Pie Chart -->
-        <div class="grid grid-cols-1 lg:grid-cols-1 gap-4 mt-4">
+        <!-- <div class="grid grid-cols-1 lg:grid-cols-1 gap-4 mt-4">
           <PieChart />
-        </div>
+        </div> -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
           <PageVisits />
           <SocialTraffic />
@@ -26,7 +26,7 @@
   import Header from '../components/Header.vue'
   import Sidebar from '../components/Sidebar.vue'
   import StatCard from '../components/StatCard.vue'
-  import PieChart from '../components/PieChart.vue'
+  // import PieChart from '../components/PieChart.vue'
   import PageVisits from '../components/PageVisits.vue'
   import SocialTraffic from '../components/SocialTraffic.vue'
   
@@ -35,7 +35,7 @@
       Header,
       Sidebar,
       StatCard,
-      PieChart,
+      // PieChart,
       PageVisits,
       SocialTraffic
     }
