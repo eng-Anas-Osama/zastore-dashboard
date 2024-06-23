@@ -1,7 +1,7 @@
 <template>
     <div class="flex">
       <Sidebar />
-      <div class="flex-1 p-4">
+      <div class="flex-1 p-0">
         <Header />
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <!-- Stat Cards -->
@@ -14,7 +14,7 @@
         <!-- <div class="grid grid-cols-1 lg:grid-cols-1 gap-4 mt-4">
           <PieChart />
         </div> -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-2">
           <PageVisits />
           <SocialTraffic />
         </div>

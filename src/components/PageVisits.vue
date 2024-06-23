@@ -12,10 +12,10 @@
         </thead>
         <tbody class="bg-white divide-y divide-gray-200">
           <tr v-for="page in pages" :key="page.name">
-            <td class="px-6 py-4 whitespace-nowrap">{{ page.name }}</td>
-            <td class="px-6 py-4 whitespace-nowrap">{{ page.visitors }}</td>
-            <td class="px-6 py-4 whitespace-nowrap">{{ page.uniqueUsers }}</td>
-            <td class="px-6 py-4 whitespace-nowrap">{{ page.bounceRate }}%</td>
+            <td class="px-2 py-4 whitespace-nowrap">{{ page.name }}</td>
+            <td class="px-2 py-4 whitespace-nowrap">{{ page.visitors }}</td>
+            <td class="px-2 py-4 whitespace-nowrap">{{ page.uniqueUsers }}</td>
+            <td class="px-2 py-4 whitespace-nowrap">{{ page.bounceRate }}%</td>
           </tr>
         </tbody>
       </table>
