@@ -1,3 +1,5 @@
+<!-- This Component is responsible for creating the small cards with simple statics
+   that displayed under the header -->
 <template>
     <div class="card bg-white shadow-md p-4">
       <div class="flex justify-between items-center">
