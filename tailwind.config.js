@@ -9,6 +9,14 @@ export default {
   },
   plugins: [
     require('daisyui'),
-  ],
+  ],daisyui:{
+    themes: ['nord','dark'],
+    darkTheme: 'dark',
+    styled: true,
+    utils: true,
+    prefix: '',
+    logs: true,
+    themeroot:':root',
+  }
 }
 

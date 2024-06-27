@@ -8,6 +8,14 @@ const apiClient = axios.create({
   },
 });
 
+// Create another instance of axios with default options
+const secondApiClient = axios.create({
+  baseURL: 'https://jsonplaceholder.typicodhttps://mocki.io/v1/3581a68e-ad28-4f6f-a2eb-1a3dfb1e4a10e.com',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+
 export default {
   // getPageVisits() {
   //   // Using "/posts" as a placeholder endpoint
@@ -21,6 +29,7 @@ export default {
   //   // Using "/comments" as a placeholder endpoint
   //   return apiClient.get('/comments');
   // },
+
   getPhotosData(){
     return apiClient.get('/photos/1'); // Assuming fetching the first Photo as an example
 
